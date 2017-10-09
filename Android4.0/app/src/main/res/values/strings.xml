@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Android4.0</string>
+    <string name="search_hint">Find Contacts</string>
+
+    <string name="activity_contact_detail">Contact Detail</string>
+    <string name="contacts_list_search_results_title">Contacts List Search for \"%s\"</string>
+    <string name="no_contacts">No Contacts Found</string>
+    <string name="alphabet">ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="search_match_other">Matches Other Field</string>
 </resources>
