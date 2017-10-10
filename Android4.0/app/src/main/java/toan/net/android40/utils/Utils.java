@@ -5,8 +5,7 @@ import android.os.Build;
 import android.os.StrictMode;
 
 import toan.net.android40.MainActivity;
-import toan.net.android40.contactsProvider.ContactDetailActivity;
-import toan.net.android40.contactsProvider.ContactListActivity;
+import toan.net.android40.contactprovider.ContactListActivity;
 
 public class Utils {
 
@@ -34,8 +33,8 @@ public class Utils {
                 // there could be a memory leak.
                 vmPolicyBuilder
                         .setClassInstanceLimit(ContactListActivity.class, 1)
-                        .setClassInstanceLimit(MainActivity.class, 1)
-                        .setClassInstanceLimit(ContactDetailActivity.class, 1);
+                        .setClassInstanceLimit(MainActivity.class, 1);
+
             }
 
             // Use builders to enable strict mode policies

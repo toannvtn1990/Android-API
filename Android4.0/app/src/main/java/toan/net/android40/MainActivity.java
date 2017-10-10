@@ -8,7 +8,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import toan.net.android40.contactsProvider.ContactListActivity;
+import toan.net.android40.contactprovider.ContactListActivity;
 
 public class MainActivity extends AppCompatActivity {
 
